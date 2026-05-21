@@ -1,0 +1,44 @@
+# ==========================================
+# Virtual Environments (DO NOT COMMIT THESE)
+# ==========================================
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# ==========================================
+# Python Caches and Bytecode
+# ==========================================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+
+# ==========================================
+# VS Code Configuration
+# ==========================================
+.vscode/
+*.code-workspace
+
+# ==========================================
+# macOS System Files
+# ==========================================
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon_
+._*
+.Spotlight-V100
+.Trashes
+
+# ==========================================
+# Local Project Output Files
+# ==========================================
+# Ignore the generated output files so they don't clutter your repo
+extracted_math.txt
+equations_manifest.txt
+*.log
